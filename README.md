@@ -226,7 +226,7 @@ There are two alternative ways to prepare this file:
 * To train or call in the ensemble mode you should use `--ensemble` argument in `train.py` and `call.py`.
 
 ## Creating Training Data
-The best performance can be obtained when the network is trained on your input dataset. You can creat training data for your input data using [BAMSurgeon](https://github.com/adamewing/bamsurgeon) that can spike in *in silico* somatic mutations into existing BAM files. The dockerized piplines and complete documentation on how to creat training sets can be found [here](https://github.com/bioinform/somaticseq/tree/master/utilities/dockered_pipelines/bamSimulator).
+The best performance can be obtained when the network is trained on your input dataset. You can creat training data for your input data using [BAMSurgeon](https://github.com/adamewing/bamsurgeon) that can spike in *in silico* somatic mutations into existing BAM files. The dockerized piplines and complete documentation on how to creat training sets can be found [here](https://github.com/bioinform/somaticseq/tree/master/somaticseq/utilities/dockered_pipelines/bamSimulator).
 
 You can then used the synthetic tumor/normal pair and the known *in silico* spiked mutations (as truth set) to train the NeuSomatic network as shown in [Example Usage](#example-usage).
 
